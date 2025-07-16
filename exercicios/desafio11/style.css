@@ -1,0 +1,82 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 20px 10px 20px 10px
+}
+body{
+background-color: black;
+}
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 30px;
+color: beige;
+text-align: center;
+}
+h2 { font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+font-size: 20px;
+color: beige;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.imght .imght .imgph .imgjs  {
+
+width: 400px;
+height: 300px;
+
+
+}
+article{
+    display: inline;
+    background-color: aquamarine;
+}
+
+section{
+    display:block ;
+    background-color: black;
+
+}
+.pr1{ display: block;
+    margin-top: 30px;
+    text-align: center;
+}
+.pr2{ margin-top: 30px;
+    
+    text-align: center;
+    display: block;
+}
+.imght{ margin-left: 30px;
+    margin-right: 30px;
+    
+
+
+}
+.imghard{
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+.voltar{
+    display: block;
+    text-align: center;
+    margin: auto;
+    
+
+}
+.veja1{
+  
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+.videohtml{
+    display: block;
+    margin: auto;
+
+}

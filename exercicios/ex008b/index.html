@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outras formataçoes</title>
+</head>
+<body>
+    <h1>Outras formataçoes</h1>
+    <h2>Código fonte / Pré formataçao</h2>
+    <p>O comando <code>documents.getelementbyid('teste')</code> é escrito em linguagem javascript</p><!--o code organiza as letras deixando elas do msm tamanho-->
+    <pre>
+        <code> <!--isso é codigo fonte-->
+            num = int(input('Digite um número'))
+            if num % 2==0:
+                print(f'0 número{num}é PAR ')
+            else:
+                print(f'o número {num }é impar')
+            print ('fim do programa')
+        </code> <!--Somente o code nao organiza ele tbm necessita do pré-->
+    </pre>
+    <h2>Citações</h2>
+    <p>Como diria o pai de um amigo <q>O computador é um burro muito rápido </q></p> <!--Citações simples sem quebras (ele coloca aspas em um texto sem quebras(Jogada do texto para o lado))-->
+    <p>Segundo jeff noble , no seu livro html para leigos:</p>
+    <blockquote cite="https://www.google.com.ar/books/edition/Wordpress_para_leigos/VFNSEQAAQBAJ?hl=pt-BR&gbpv=1&dq=html+para+leigos&pg=SA8-PA77&printsec=frontcover">
+       
+           os elementos html devem ser aninhados adequadamente,
+           na quarta linha do exemplo anterior, uma tag de parágrafo foi aberta 
+      
+    </blockquote>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="hypertext markup language">HTML</abbr> e <abbr title="Cascading style sheets">CSS</abbr> . estou adorando</p> <!--Precisa envelopar fica mais facil a tag é "abbr" title é o titulo da ou melhor o significado da palavra-->
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Ele vai escrever o texto ao contrario</bdo></p> <!--right to left , da direita para esquerda tag inutil ao contrario-->
+</body>
+</html>

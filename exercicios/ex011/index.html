@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em Html</title>
+</head>
+<body>
+    <h1>imagem dinamica</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <!--CUIDADO na tag source a base (img é a imagem padrao que vc quer colocar e os sources sao as alternativas sempre na ordem ou seja se a principal é a grande  depois do M e depois do P OU SEJA SEMPRE EM ORDEM DO SOURCE )-->
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens\imagem-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="Imagens/imagem-m.png" type="image/png">
+   <img src="Imagens/imagem-g.png" alt="imagem flexivel"> <!--tag picture funciona para informar que tem uma imagem e dentro dela usamos a tag img a tag source media é para informar o sis o tamanho da imagem max e senao for menor ou mais ex (1000px) aparecer a outra imagem no caso a imagem m se o tamanho da tela for reduzido -->
+    </picture>
+    <h1>Reproduzindo Audios </h1>
+    <p>Vamos a Aprender a Reproduzir áudios em HTML5</p>
+    <!--Tag para audio , sem autoplay ele nao reproduz MP3 -WAV OGG-- melhor semrpe abrir com source para ter outras opçoes-->
+    <P>Outras formas</P>
+    <audio preload="auto" autoplay controls loop >
+<source src="medias/Pluto - Topher Mohr and Alex Elena.mp3" type="audio/mpeg" >
+<source src="medias/guanacast-33.mp3" type="audio/mpeg">
+<p>Infelizmente o seu navegador não consegue reproduzir audios <a href="medias/Pluto - Topher Mohr and Alex Elena.mp3">Clique aqui para baixar o arquivo MP3 </a></p>
+</audio>
+  
+</body>
+</html>

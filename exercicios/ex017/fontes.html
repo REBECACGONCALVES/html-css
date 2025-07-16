@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+        
+   <style>
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        
+        /*medidas absolutas
+        cm,mm,in,px (principal),(pt,pc- nao recomenado em usar material exibido em tela)
+
+        16px geralmente é 1em - o tradicional do site é font: size 16px;
+
+        medidas Relativas
+        em(relativo ao M DE UMA FONTE PRINCIPAL),ex (RELATIVO A LETRA X DE UMA FONTE),rem,vw(largura da view port (tamanho de tela)),vh,%
+        */
+        font-size: 16px;
+        font: weight 300px; ;
+        font-style: italic;
+
+         /* font-style é para escolher se quer italico ou nao*/
+        /*weight (peso) , widht (largura),height (altura)*/
+        /*lighter normal bold bolder (esses sao os pesos da font é como se fosse negrito da palavra tbm em numeraçao) */
+    }
+    h1{
+        font-family:'Bitcount grid double';
+        font-weight: normal;
+        font-size: 3em;
+        font-style: italic;
+        /* shorthand
+        - font-style -> font weight -> font size -> font family SEMPRE USAR ESSA ORDEM*/
+        font:italic,bolder,3em,'Work Sans',sans-serif ;
+        /* modo simplificado ^^^^^^--*/
+    }
+   
+   </style>
+</head>
+<body>
+    <h1 >Trabalhando com Fontes</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, eaque ratione velit aliquam, et vitae dolor blanditiis minus reiciendis esse odio? Est veritatis, alias iure iste odit animi recusandae fugiat.</p>
+    <h2>subtitulo do exercicio</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, eum eos nostrum minus excepturi, ex repudiandae accusamus accusantium facere corporis saepe reprehenderit consequatur repellat delectus necessitatibus, amet maxime. Iusto, enim.</p>
+    
+</body>
+</html>

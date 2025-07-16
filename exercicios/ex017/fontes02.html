@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: 'love larry'; /* precisa colocar corretamente ou melhor atribuir o nome no fonte famili dentro do font face para poder atribuir o nome lá no body*/
+
+            src: url(fontes/love\ larry\ ttf.ttf)format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*tipos de format()
+            -opentype (otf)
+            -truetype (ttf)
+            -truetype-aat(Apple advanced typography)
+            -svg*/
+
+
+        }
+        body{
+            
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        h1{
+            font-family: 'love larry';
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente placeat quod cum ipsam in tempore dolorum id! Itaque ad quas, illum eius temporibus, enim rerum saepe libero necessitatibus voluptate sed.</p>
+</body>
+</html>
