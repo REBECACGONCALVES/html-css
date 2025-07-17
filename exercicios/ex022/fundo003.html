@@ -6,12 +6,18 @@
     <title>Document</title>
     <style>
         body { height: 100vh;
-            background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
+           /* background-color: black;
+            background-image: url('imagens/wallpaper002.jpg');
             background-repeat: no-repeat;
             background-position: center top;
             background-size: cover; /* ele vai definir que a imagem de fundo vai cobrir todo o fundo da tela tipo ele picota as pontas*/
-        
+            /*background-attachment: fixed;/* ele vai definir que a imagem de fundo vai ficar fixa, ou seja, quando você rolar a tela a imagem não vai se mexer */
+
+            /*shorthand - background
+            color> image > position > size () > repeat > attachment */
+        background:black url('imagens/wallpaper002.jpg') center center  no-repeat fixed;
+        background-size: cover;
+            
 
         }
         main{
