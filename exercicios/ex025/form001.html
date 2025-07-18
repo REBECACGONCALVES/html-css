@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulario</h1>
+    <form action="cadastro.php" autocomplete="off">  <!--para nao completar os dados-->
+    <p><label for="inome">Nome:</label> 
+        <input type="text"  name="nome" id="inome"></p>
+    <p><label for="isobrenome">sobrenome:</label>
+        <input type="text"name="sobrenome"id="isobrenome"></p>
+    <p><input type="submit" value="Enviar"></p>
+    </form> <!--todo formulario tem que estar entre form vc precisa identificar o nome e o id para que--> 
+</body>
+</html>
+<!--o type text é para texto e o type submit é enviar , tem varios tipos de type-->
+<!--o label serve para aumentar o nivel de sensibilidade no campo por exemplo cel e etc-->
