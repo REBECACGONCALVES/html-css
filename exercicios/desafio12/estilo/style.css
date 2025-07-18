@@ -14,7 +14,7 @@
     
 }
 html, body{
-    min-height:100vh;
+    min-height:100vh; /* algo relacionado ao tamanho da tela sobre aumentar e diminuir*/
     background-color:darkgray;
     font-family: var(--fonte1);
  }
@@ -49,12 +49,11 @@ html, body{
  a{
     color: white;
     text-decoration: none; /* sem o underline*/
-    font-weight: bolder;
- }
- a:houver {
-    text-decoration: underline; /*sobre o underline que vai aparecer quando passa o mouse*/
     
-  }
+ }
+ 
+    
+  
  
 section.normal{
     background-color:white;
@@ -71,8 +70,8 @@ section.imagem {
     
    background-color: rgb(51, 51, 51);
     color: white;
-    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.475);
-    background-size: cover;
+   
+    background-size: cover; /* cover significa cobrir a tela inteira msm que de uma picotada na imagem , sempre usar cover*/
     background-attachment: fixed; /* ele vai fixar a imagem enquanto rola no scroll*/
 }
 section#img01{
@@ -92,3 +91,4 @@ section#img02{
     text-align: center;
     padding: 10px;
   }
+  
